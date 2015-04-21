@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F484EBB31AE6CBBB00E12D92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBB21AE6CBBB00E12D92 /* main.m */; };
-		F484EBB61AE6CBBB00E12D92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBB51AE6CBBB00E12D92 /* AppDelegate.m */; };
-		F484EBB91AE6CBBB00E12D92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBB81AE6CBBB00E12D92 /* ViewController.m */; };
-		F484EBBC1AE6CBBB00E12D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F484EBBA1AE6CBBB00E12D92 /* Main.storyboard */; };
-		F484EBBE1AE6CBBB00E12D92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F484EBBD1AE6CBBB00E12D92 /* Images.xcassets */; };
-		F484EBC11AE6CBBB00E12D92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F484EBBF1AE6CBBB00E12D92 /* LaunchScreen.xib */; };
 		F484EBCD1AE6CBBB00E12D92 /* NearByTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBCC1AE6CBBB00E12D92 /* NearByTests.m */; };
+		F484EBEB1AE6CD1700E12D92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBD71AE6CD1700E12D92 /* AppDelegate.m */; };
+		F484EBEC1AE6CD1700E12D92 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F484EBD81AE6CD1700E12D92 /* MainStoryboard_iPhone.storyboard */; };
+		F484EBED1AE6CD1700E12D92 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBDA1AE6CD1700E12D92 /* MainViewController.m */; };
+		F484EBEE1AE6CD1700E12D92 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBDC1AE6CD1700E12D92 /* SettingsViewController.m */; };
+		F484EBEF1AE6CD1700E12D92 /* MessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBDE1AE6CD1700E12D92 /* MessageView.m */; };
+		F484EBF01AE6CD1700E12D92 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBE01AE6CD1700E12D92 /* ImageView.m */; };
+		F484EBF11AE6CD1700E12D92 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBE21AE6CD1700E12D92 /* ProgressView.m */; };
+		F484EBF21AE6CD1700E12D92 /* SessionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBE41AE6CD1700E12D92 /* SessionContainer.m */; };
+		F484EBF31AE6CD1700E12D92 /* Transcript.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBE61AE6CD1700E12D92 /* Transcript.m */; };
+		F484EBF41AE6CD1700E12D92 /* ProgressObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EBE81AE6CD1700E12D92 /* ProgressObserver.m */; };
+		F484EBF51AE6CD1700E12D92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F484EBE91AE6CD1700E12D92 /* Images.xcassets */; };
+		F484EBF61AE6CD1700E12D92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F484EBEA1AE6CD1700E12D92 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +37,30 @@
 		F484EBAD1AE6CBBB00E12D92 /* NearBy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearBy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F484EBB11AE6CBBB00E12D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F484EBB21AE6CBBB00E12D92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F484EBB41AE6CBBB00E12D92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F484EBB51AE6CBBB00E12D92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F484EBB71AE6CBBB00E12D92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F484EBB81AE6CBBB00E12D92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F484EBBB1AE6CBBB00E12D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F484EBBD1AE6CBBB00E12D92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F484EBC01AE6CBBB00E12D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F484EBC61AE6CBBB00E12D92 /* NearByTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearByTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F484EBCB1AE6CBBB00E12D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F484EBCC1AE6CBBB00E12D92 /* NearByTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearByTests.m; sourceTree = "<group>"; };
+		F484EBD61AE6CD1700E12D92 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F484EBD71AE6CD1700E12D92 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F484EBD81AE6CD1700E12D92 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F484EBD91AE6CD1700E12D92 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F484EBDA1AE6CD1700E12D92 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F484EBDB1AE6CD1700E12D92 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		F484EBDC1AE6CD1700E12D92 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		F484EBDD1AE6CD1700E12D92 /* MessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageView.h; sourceTree = "<group>"; };
+		F484EBDE1AE6CD1700E12D92 /* MessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageView.m; sourceTree = "<group>"; };
+		F484EBDF1AE6CD1700E12D92 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		F484EBE01AE6CD1700E12D92 /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
+		F484EBE11AE6CD1700E12D92 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		F484EBE21AE6CD1700E12D92 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		F484EBE31AE6CD1700E12D92 /* SessionContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionContainer.h; sourceTree = "<group>"; };
+		F484EBE41AE6CD1700E12D92 /* SessionContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionContainer.m; sourceTree = "<group>"; };
+		F484EBE51AE6CD1700E12D92 /* Transcript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transcript.h; sourceTree = "<group>"; };
+		F484EBE61AE6CD1700E12D92 /* Transcript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transcript.m; sourceTree = "<group>"; };
+		F484EBE71AE6CD1700E12D92 /* ProgressObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressObserver.h; sourceTree = "<group>"; };
+		F484EBE81AE6CD1700E12D92 /* ProgressObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressObserver.m; sourceTree = "<group>"; };
+		F484EBE91AE6CD1700E12D92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F484EBEA1AE6CD1700E12D92 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +102,27 @@
 		F484EBAF1AE6CBBB00E12D92 /* NearBy */ = {
 			isa = PBXGroup;
 			children = (
-				F484EBB41AE6CBBB00E12D92 /* AppDelegate.h */,
-				F484EBB51AE6CBBB00E12D92 /* AppDelegate.m */,
-				F484EBB71AE6CBBB00E12D92 /* ViewController.h */,
-				F484EBB81AE6CBBB00E12D92 /* ViewController.m */,
-				F484EBBA1AE6CBBB00E12D92 /* Main.storyboard */,
-				F484EBBD1AE6CBBB00E12D92 /* Images.xcassets */,
-				F484EBBF1AE6CBBB00E12D92 /* LaunchScreen.xib */,
+				F484EBD61AE6CD1700E12D92 /* AppDelegate.h */,
+				F484EBD71AE6CD1700E12D92 /* AppDelegate.m */,
+				F484EBD81AE6CD1700E12D92 /* MainStoryboard_iPhone.storyboard */,
+				F484EBD91AE6CD1700E12D92 /* MainViewController.h */,
+				F484EBDA1AE6CD1700E12D92 /* MainViewController.m */,
+				F484EBDB1AE6CD1700E12D92 /* SettingsViewController.h */,
+				F484EBDC1AE6CD1700E12D92 /* SettingsViewController.m */,
+				F484EBDD1AE6CD1700E12D92 /* MessageView.h */,
+				F484EBDE1AE6CD1700E12D92 /* MessageView.m */,
+				F484EBDF1AE6CD1700E12D92 /* ImageView.h */,
+				F484EBE01AE6CD1700E12D92 /* ImageView.m */,
+				F484EBE11AE6CD1700E12D92 /* ProgressView.h */,
+				F484EBE21AE6CD1700E12D92 /* ProgressView.m */,
+				F484EBE31AE6CD1700E12D92 /* SessionContainer.h */,
+				F484EBE41AE6CD1700E12D92 /* SessionContainer.m */,
+				F484EBE51AE6CD1700E12D92 /* Transcript.h */,
+				F484EBE61AE6CD1700E12D92 /* Transcript.m */,
+				F484EBE71AE6CD1700E12D92 /* ProgressObserver.h */,
+				F484EBE81AE6CD1700E12D92 /* ProgressObserver.m */,
+				F484EBE91AE6CD1700E12D92 /* Images.xcassets */,
+				F484EBEA1AE6CD1700E12D92 /* LaunchScreen.xib */,
 				F484EBB01AE6CBBB00E12D92 /* Supporting Files */,
 			);
 			path = NearBy;
@@ -199,9 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F484EBBC1AE6CBBB00E12D92 /* Main.storyboard in Resources */,
-				F484EBC11AE6CBBB00E12D92 /* LaunchScreen.xib in Resources */,
-				F484EBBE1AE6CBBB00E12D92 /* Images.xcassets in Resources */,
+				F484EBEC1AE6CD1700E12D92 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F484EBF61AE6CD1700E12D92 /* LaunchScreen.xib in Resources */,
+				F484EBF51AE6CD1700E12D92 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +254,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F484EBB91AE6CBBB00E12D92 /* ViewController.m in Sources */,
-				F484EBB61AE6CBBB00E12D92 /* AppDelegate.m in Sources */,
+				F484EBEB1AE6CD1700E12D92 /* AppDelegate.m in Sources */,
+				F484EBEF1AE6CD1700E12D92 /* MessageView.m in Sources */,
+				F484EBF41AE6CD1700E12D92 /* ProgressObserver.m in Sources */,
+				F484EBED1AE6CD1700E12D92 /* MainViewController.m in Sources */,
 				F484EBB31AE6CBBB00E12D92 /* main.m in Sources */,
+				F484EBF31AE6CD1700E12D92 /* Transcript.m in Sources */,
+				F484EBF21AE6CD1700E12D92 /* SessionContainer.m in Sources */,
+				F484EBF01AE6CD1700E12D92 /* ImageView.m in Sources */,
+				F484EBF11AE6CD1700E12D92 /* ProgressView.m in Sources */,
+				F484EBEE1AE6CD1700E12D92 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +284,6 @@
 			targetProxy = F484EBC71AE6CBBB00E12D92 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F484EBBA1AE6CBBB00E12D92 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F484EBBB1AE6CBBB00E12D92 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F484EBBF1AE6CBBB00E12D92 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F484EBC01AE6CBBB00E12D92 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F484EBCE1AE6CBBB00E12D92 /* Debug */ = {

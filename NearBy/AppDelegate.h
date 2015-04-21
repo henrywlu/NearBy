@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  NearBy
 //
-//  Created by Henry W. Lu on 4/21/15.
-//  Copyright (c) 2015 Henry W. Lu. All rights reserved.
+//  Created by Henry Lu on 10/31/14.
+//  Copyright (c) 2014 Henry Lu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
